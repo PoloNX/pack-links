@@ -1,7 +1,10 @@
 {
-    "ams_cfw": {
-        "Atmosphere": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.7.1/atmosphere-1.7.1-master-39c201e37%2Bhbl-2.4.4%2Bhbmenu-3.6.0.zip",
-        "version": "1.7.1"
+    "cfw": {
+        "Atmosphere": {
+            "name": "Atmosphere",
+            "link": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.7.1/atmosphere-1.7.1-master-39c201e37%2Bhbl-2.4.4%2Bhbmenu-3.6.0.zip",
+            "version": "1.7.1"
+        }
     },
     "firmwares": {
         "Firmware 18.1.0": "https://github.com/THZoria/NX_Firmware/releases/download/18.1.0/Firmware.18.1.0.zip",
@@ -98,8 +101,8 @@
         },
         "Goldleaf": {
             "name": "Goldleaf",
-            "link": "https://github.com/XorTroll/Goldleaf/releases/download/0.10.1/Goldleaf.nro",
-            "version": "0.10.1"
+            "link": "https://github.com/XorTroll/Goldleaf/releases/download/1.0.0/Goldleaf.nro",
+            "version": "1.0.0"
         },
         "Hekate-Toolbox": {
             "name": "Hekate-Toolbox",

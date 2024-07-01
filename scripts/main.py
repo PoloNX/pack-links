@@ -1,6 +1,6 @@
 import json
 
-import ams_cfw
+import cfw
 import firmwares
 import app
 import overlay
@@ -19,7 +19,7 @@ if __name__ == '__main__':
         out = {}
 
     modules = [
-        ams_cfw.Ams_cfw(),
+        cfw.cfw(),
         firmwares.Firmwares(),
         app.App(),
         homebrew.Homebrew(),

@@ -27,7 +27,7 @@ class Homebrew(BaseModule):
 
         for i in a:
             self.config = i
-            if self.config[0]["reponame"] == "Goldleaf" or self.config[0]["reponame"] == "emuiibo":
+            if self.config[0]["reponame"] == "emuiibo":
                 release = self.get_latest_pre_release(0)
             else:
                 release = self.get_latest_release(0)
