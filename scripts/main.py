@@ -26,7 +26,7 @@ if __name__ == '__main__':
         overlay.Overlay(),
         payload.Payload(),
         sysmodule.Sysmodule(),
-        tab.Tab()
+        #tab.Tab()
     ]
     for module in modules:
         module.handle_module()

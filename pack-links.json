@@ -153,6 +153,11 @@
         }
     },
     "payload": {
+        "hekate": {
+            "name": "hekate",
+            "link": "https://github.com/CTCaer/hekate/releases/download/v6.2.0/hekate_ctcaer_6.2.0_Nyx_1.6.2_v4.zip",
+            "version": "v6.2.0"
+        },
         "Lockpick_RCM": {
             "name": "Lockpick_RCM",
             "link": "https://github.com/Decscots/Lockpick_RCM/releases/download/v1.9.12/Lockpick_RCM.bin",

@@ -2,13 +2,6 @@ from basemodule import BaseModule
 
 class Homebrew(BaseModule):
     def __init__(self):
-        self.config = [
-            {
-                "username": "XorTroll",
-                "reponame": "Goldleaf",
-                "assetPatterns": [".*Goldleaf.*\\.nro"]
-            }
-        ]
         BaseModule.__init__(self)
 
     def handle_module(self):

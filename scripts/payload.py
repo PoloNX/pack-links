@@ -2,18 +2,12 @@ from basemodule import BaseModule
 
 class Payload(BaseModule):
     def __init__(self):
-        self.config = [
-            {
-                "username": "CTCaer",
-                "reponame": "hekate",
-                "assetPatterns": [".*hekate.*\\.zip"]
-            }
-        ]
         BaseModule.__init__(self)
 
     def handle_module(self):
         a=[]
         #overlays
+        a.append([{"username": "CTCaer","reponame": "hekate","assetPatterns": [".*hekate.*\\.zip"]}])
         a.append([{"username": "Decscots","reponame": "Lockpick_RCM","assetPatterns": [".*Lockpick_RCM.*\\.bin"]}])
         a.append([{"username": "suchmememanyskill","reponame": "TegraExplorer","assetPatterns": [".*TegraExplorer.*\\.bin"]}])
         a.append([{"username": "Atmosphere-NX","reponame": "Atmosphere","assetPatterns": [".*fusee.*\\.bin"]}])
