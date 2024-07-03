@@ -151,6 +151,11 @@
             "name": "sys-tune",
             "link": "https://github.com/HookedBehemoth/sys-tune/releases/download/v2.0.0/sys-tune-2.0.0-702cdd0.zip",
             "version": "v2.0.0"
+        },
+        "QuickNTP": {
+            "name": "QuickNTP",
+            "link": "https://github.com/nedex/QuickNTP/releases/download/1.2.8/QuickNTP.ovl",
+            "version": "1.2.8"
         }
     },
     "payload": {
