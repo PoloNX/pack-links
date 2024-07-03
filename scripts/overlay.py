@@ -17,6 +17,7 @@ class Overlay(BaseModule):
         a.append([{"username": "WerWolv","reponame": "Tesla-Menu","assetPatterns": [".*ovlmenu.*\\.zip"]}])
         a.append([{"username": "Hartie95","reponame": "fastCFWswitch","assetPatterns": [".*fastCFWswitch.*\\.zip"]}])
         a.append([{"username": "HookedBehemoth","reponame": "sys-tune","assetPatterns": [".*sys-tune.*\\.zip"]}])
+        a.append([{"username": "nedex","reponame": "QuickNTP","assetPatterns": [".*QuickNTP.*\\.ovl"]}])
         for i in a:
             self.config = i
             release = self.get_latest_release(0)
