@@ -17,6 +17,10 @@ class Overlay(BaseModule):
         a.append([{"username": "WerWolv","reponame": "Tesla-Menu","assetPatterns": [".*ovlmenu.*\\.zip"]}])
         a.append([{"username": "Hartie95","reponame": "fastCFWswitch","assetPatterns": [".*fastCFWswitch.*\\.zip"]}])
         a.append([{"username": "nedex","reponame": "QuickNTP","assetPatterns": [".*QuickNTP.*\\.ovl"]}])
+        a.append([{"username": "masagrator","reponame": "Status-Monitor-Overlay","assetPatterns": [".*Status-Monitor.*\\.zip"]}])
+        a.append([{"username": "SegFault42","reponame": "sys-ftpd-ovl","assetPatterns": [".*sys-ftpd.*\\.zip"]}])
+        a.append([{"username": "HookedBehemoth","reponame": "ShareNX-Overlay","assetPatterns": [".*ovlShareNX.*\\.ovl"]}])
+        a.append([{"username": "nedex","reponame": "QuickNTP","assetPatterns": [".*QuickNTP.*\\.ovl"]}])
         for i in a:
             self.config = i
             release = self.get_latest_release(0)
