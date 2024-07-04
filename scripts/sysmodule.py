@@ -7,10 +7,17 @@ class Sysmodule(BaseModule):
     def handle_module(self):
         a=[]
         #sysmodules
-        a.append([{"username": "ndeadly","reponame": "MissionControl","assetPatterns": [".*MissionControl.*\\.zip"]}])
-        a.append([{"username": "exelix11","reponame": "SysDVR","assetPatterns": ["SysDVR.zip"]}])
-        a.append([{"username": "WerWolv","reponame": "nx-ovlloader","assetPatterns": [".*nx-ovlloader.*\\.zip"]}])
-        a.append([{"username": "HookedBehemoth","reponame": "sys-tune","assetPatterns": [".*sys-tune.*\\.zip"]}])
+        a.append([{"username": "ndeadly","reponame": "MissionControl","assetPatterns": [".*MissionControl.*\\.zip"], "archiveDirectory": "/", "archiveExtraction": "sdmc:/"}])
+        a.append([{"username": "exelix11","reponame": "SysDVR","assetPatterns": ["SysDVR.zip"], "archiveDirectory": "/", "archiveExtraction": "sdmc:/"}])
+        a.append([{"username": "WerWolv","reponame": "nx-ovlloader","assetPatterns": [".*nx-ovlloader.*\\.zip"], "archiveDirectory": "/", "archiveExtraction": "sdmc:/"}])
+        a.append([{"username": "HookedBehemoth","reponame": "sys-tune","assetPatterns": [".*sys-tune.*\\.zip"], "archiveDirectory": "/", "archiveExtraction": "sdmc:/"}])
+        a.append([{"username": "XorTroll","reponame": "emuiibo","assetPatterns": [".*emuiibo.*\\.zip"], "archiveDirectory": "/SdOut/", "archiveExtraction": "sdmc:/"}])
+        a.append([{"username": "o0Zz","reponame": "sys-con","assetPatterns": [".*sys-con.*\\1.7.x.zip"], "archiveDirectory": "/", "archiveExtraction": "sdmc:/"}])
+        a.append([{"username": "retronx-team","reponame": "sys-clk","assetPatterns": [".*sys-clk.*\\.zip"], "archiveDirectory": "/", "archiveExtraction": "sdmc:/"}])
+        a.append([{"username": "bakatrouble","reponame": "sys-screenuploader","assetPatterns": [".*sys-screenuploader.*\\.zip"], "archiveDirectory": "/", "archiveExtraction": "sdmc:/"}])
+        #a.append([{"username": "impeeza","reponame": "sys-patch","assetPatterns": [".*sys-patch.*\\.zip"], "archiveDirectory": "/", "archiveExtraction": "sdmc:/"}])
+        
+
         for i in a:
             self.config = i
             release = self.get_latest_release(0)

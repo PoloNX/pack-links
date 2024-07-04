@@ -16,6 +16,7 @@ class Homebrew(BaseModule):
         a.append([{"username": "PoloNX","reponame": "Ls-News","assetPatterns": [".*Ls-News.*\\.nro"]}])
         a.append([{"username": "PoloNX","reponame": "SimpleModDownloader","assetPatterns": [".*SimpleModDownloader.*\\.nro"]}])
         a.append([{"username": "nadrino","reponame": "SimpleModManager","assetPatterns": [".*SimpleModManager.*\\.nro"]}])
+        a.append([{"username": "znxDomain","reponame": "DNS-MITM_Manager","assetPatterns": [".*DNS-MITM_Manager.*\\.nro"]}])
 
 
         for i in a:
