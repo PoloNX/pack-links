@@ -166,11 +166,6 @@
             "name": "sys-ftpd-ovl",
             "link": "https://github.com/SegFault42/sys-ftpd-ovl/releases/download/1.0.2/sys-ftpd-ovl.support.18.0.1.zip",
             "version": "1.0.2"
-        },
-        "ShareNX-Overlay": {
-            "name": "ShareNX-Overlay",
-            "link": "https://github.com/HookedBehemoth/ShareNX-Overlay/releases/download/v1.1.3/ovlShareNX.ovl",
-            "version": "v1.1.3"
         }
     },
     "payload": {
