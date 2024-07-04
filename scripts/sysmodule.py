@@ -10,6 +10,7 @@ class Sysmodule(BaseModule):
         a.append([{"username": "ndeadly","reponame": "MissionControl","assetPatterns": [".*MissionControl.*\\.zip"]}])
         a.append([{"username": "exelix11","reponame": "SysDVR","assetPatterns": ["SysDVR.zip"]}])
         a.append([{"username": "WerWolv","reponame": "nx-ovlloader","assetPatterns": [".*nx-ovlloader.*\\.zip"]}])
+        a.append([{"username": "HookedBehemoth","reponame": "sys-tune","assetPatterns": [".*sys-tune.*\\.zip"]}])
         for i in a:
             self.config = i
             release = self.get_latest_release(0)
