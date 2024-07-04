@@ -200,49 +200,49 @@
             "name": "MissionControl",
             "link": "https://github.com/ndeadly/MissionControl/releases/download/v0.11.1/MissionControl-0.11.1-master-581ae0d.zip",
             "version": "v0.11.1",
-            "archiveDirectory": "/",
+            "archiveDirectory": "",
             "archiveExtraction": "sdmc:/"
         },
         "SysDVR": {
             "name": "SysDVR",
             "link": "https://github.com/exelix11/SysDVR/releases/download/v6.1.1/SysDVR.zip",
             "version": "v6.1.1",
-            "archiveDirectory": "/",
+            "archiveDirectory": "",
             "archiveExtraction": "sdmc:/"
         },
         "nx-ovlloader": {
             "name": "nx-ovlloader",
             "link": "https://github.com/WerWolv/nx-ovlloader/releases/download/v1.0.7/nx-ovlloader.zip",
             "version": "v1.0.7",
-            "archiveDirectory": "/",
+            "archiveDirectory": "",
             "archiveExtraction": "sdmc:/"
         },
         "sys-tune": {
             "name": "sys-tune",
             "link": "https://github.com/HookedBehemoth/sys-tune/releases/download/v2.0.0/sys-tune-2.0.0-702cdd0.zip",
             "version": "v2.0.0",
-            "archiveDirectory": "/",
+            "archiveDirectory": "",
             "archiveExtraction": "sdmc:/"
         },
         "emuiibo": {
             "name": "emuiibo",
             "link": "https://github.com/XorTroll/emuiibo/releases/download/1.1.1/emuiibo.zip",
             "version": "1.1.1",
-            "archiveDirectory": "/SdOut/",
+            "archiveDirectory": "SdOut/",
             "archiveExtraction": "sdmc:/"
         },
         "sys-clk": {
             "name": "sys-clk",
             "link": "https://github.com/retronx-team/sys-clk/releases/download/2.0.0-rc/sys-clk-2.0.0-rc_4.zip",
             "version": "2.0.0-rc",
-            "archiveDirectory": "/",
+            "archiveDirectory": "",
             "archiveExtraction": "sdmc:/"
         },
         "sys-screenuploader": {
             "name": "sys-screenuploader",
             "link": "https://github.com/bakatrouble/sys-screenuploader/releases/download/v0.0.10/sys-screenuploader.zip",
             "version": "v0.0.10",
-            "archiveDirectory": "/",
+            "archiveDirectory": "",
             "archiveExtraction": "sdmc:/"
         }
     },
