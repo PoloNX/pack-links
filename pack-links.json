@@ -284,21 +284,21 @@
             "link": "https://raw.githubusercontent.com/PoloNX/pack-links/master/download/default.txt",
             "version": "",
             "archiveDirectory": "",
-            "archiveExtraction": ""
+            "archiveExtraction": "sdmc:/atmosphere/hosts/"
         },
         "Hekate Config": {
             "name": "Hekate Config",
             "link": "https://raw.githubusercontent.com/PoloNX/pack-links/master/download/hekate_ipl.ini",
             "version": "",
             "archiveDirectory": "",
-            "archiveExtraction": ""
+            "archiveExtraction": "sdmc:/bootloader/"
         },
         "exosphere": {
             "name": "exosphere (anti ban)",
             "link": "https://raw.githubusercontent.com/PoloNX/pack-links/master/download/exosphere.ini",
             "version": "",
             "archiveDirectory": "",
-            "archiveExtraction": ""
+            "archiveExtraction": "sdmc:/"
         }
     }
 }
