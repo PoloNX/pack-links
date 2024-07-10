@@ -8,6 +8,8 @@ import payload
 import sysmodule
 import homebrew
 import tab
+import preset
+import misc
 
 if __name__ == '__main__':
 
@@ -20,13 +22,15 @@ if __name__ == '__main__':
 
     modules = [
         cfw.cfw(),
-        firmwares.Firmwares(),
-        app.App(),
+        #firmwares.Firmwares(),
+        #app.App(),
         homebrew.Homebrew(),
         overlay.Overlay(),
         payload.Payload(),
         sysmodule.Sysmodule(),
         #tab.Tab()
+        preset.Preset(),
+        misc.Misc()
     ]
     for module in modules:
         module.handle_module()

@@ -11,6 +11,7 @@ class Payload(BaseModule):
         a.append([{"username": "Decscots","reponame": "Lockpick_RCM","assetPatterns": [".*Lockpick_RCM.*\\.bin"]}])
         a.append([{"username": "suchmememanyskill","reponame": "TegraExplorer","assetPatterns": [".*TegraExplorer.*\\.bin"]}])
         a.append([{"username": "Atmosphere-NX","reponame": "Atmosphere","assetPatterns": [".*fusee.*\\.bin"]}])
+        
         for i in a:
             self.config = i
             release = self.get_latest_release(0)

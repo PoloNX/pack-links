@@ -13,10 +13,15 @@ class Homebrew(BaseModule):
         a.append([{"username": "WerWolv","reponame": "Hekate-Toolbox","assetPatterns": [".*HekateToolbox.*\\.nro"]}])
         a.append([{"username": "J-D-K","reponame": "JKSV","assetPatterns": [".*JKSV.*\\.nro"]}])
         a.append([{"username": "tallbl0nde","reponame": "NX-Activity-Log","assetPatterns": [".*NX-Activity-Log.*\\.nro"]}])
-        a.append([{"username": "PoloNX","reponame": "Ls-News","assetPatterns": [".*Ls-News.*\\.nro"]}])
+        #a.append([{"username": "PoloNX","reponame": "Ls-News","assetPatterns": [".*Ls-News.*\\.nro"]}])
         a.append([{"username": "PoloNX","reponame": "SimpleModDownloader","assetPatterns": [".*SimpleModDownloader.*\\.nro"]}])
         a.append([{"username": "nadrino","reponame": "SimpleModManager","assetPatterns": [".*SimpleModManager.*\\.nro"]}])
-        a.append([{"username": "znxDomain","reponame": "DNS-MITM_Manager","assetPatterns": [".*DNS-MITM_Manager.*\\.zip"]}])
+        #a.append([{"username": "znxDomain","reponame": "DNS-MITM_Manager","assetPatterns": [".*DNS-MITM_Manager.*\\.zip"]}])
+        a.append([{"username": "fortheusers","reponame": "hb-appstore","assetPatterns": [".*appstore.*\\.nro"]}])
+        a.append([{"username": "exelix11","reponame": "SwitchThemeInjector","assetPatterns": [".*NXThemesInstaller.*\\.nro"]}])
+        a.append([{"username": "suchmememanyskill","reponame": "themezer-nx","assetPatterns": [".*themezer-nx.*\\.nro"]}])
+        a.append([{"username": "HamletDuFromage","reponame": "aio-switch-updater","assetPatterns": [".*aio-switch-updater.*\\.zip"]}])
+
 
         for i in a:
             self.config = i
