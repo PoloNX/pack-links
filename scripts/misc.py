@@ -24,6 +24,6 @@ class Misc(BaseModule):
             else:
                 print(f"Warning: No assetPatterns defined for repo {self.config[0]['reponame']}")
 
-        self.out["90dns"] = {"name": "90dns", "link": "https://raw.githubusercontent.com/PoloNX/pack-links/master/download/default.txt", "version":"", "archiveDirectory":"", "archiveExtraction":""}
-        self.out["Hekate Config"] = {"name": "Hekate Config", "link": "https://raw.githubusercontent.com/PoloNX/pack-links/master/download/hekate_ipl.ini", "version":"", "archiveDirectory":"", "archiveExtraction":""}
-        self.out["exosphere"] = {"name": "exosphere (anti ban)", "link": "https://raw.githubusercontent.com/PoloNX/pack-links/master/download/exosphere.ini", "version":"", "archiveDirectory":"", "archiveExtraction":""}
+        self.out["90dns"] = {"name": "90dns", "link": "https://raw.githubusercontent.com/PoloNX/pack-links/master/download/default.txt", "version":"", "archiveDirectory":"", "archiveExtraction":"sdmc:/atmosphere/hosts/"}
+        self.out["Hekate Config"] = {"name": "Hekate Config", "link": "https://raw.githubusercontent.com/PoloNX/pack-links/master/download/hekate_ipl.ini", "version":"", "archiveDirectory":"", "archiveExtraction":"sdmc:/bootloader/"}
+        self.out["exosphere"] = {"name": "exosphere (anti ban)", "link": "https://raw.githubusercontent.com/PoloNX/pack-links/master/download/exosphere.ini", "version":"", "archiveDirectory":"", "archiveExtraction":"sdmc:/"}
