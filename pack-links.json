@@ -94,10 +94,17 @@
             "link": "https://github.com/masagrator/Status-Monitor-Overlay/releases/download/1.0.4/Status-Monitor-Overlay.zip",
             "version": "1.0.4"
         },
+<<<<<<< HEAD
         "ovl-sysmodules": {
             "name": "ovl-sysmodules",
             "link": "https://github.com/WerWolv/ovl-sysmodules/releases/download/v1.3.1/ovlSysmodules.ovl",
             "version": "v1.3.1"
+=======
+        "sys-ftpd-ovl": {
+            "name": "sys-ftpd-ovl",
+            "link": "https://github.com/SegFault42/sys-ftpd-ovl/releases/download/1.0.2/sys-ftpd-ovl.support.18.0.1.zip",
+            "version": "1.0.2"
+>>>>>>> 2a2ea3151482973b9ad0f315090dadb9d0ae4c3e
         }
     },
     "payload": {
