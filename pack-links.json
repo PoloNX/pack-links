@@ -11,66 +11,79 @@
         "dbi": {
             "name": "dbi",
             "link": "https://github.com/rashevskyv/dbi/releases/download/658/DBI.nro",
+            "description": "Author is duckbill ",
             "version": "658"
         },
         "EdiZon": {
             "name": "EdiZon",
             "link": "https://github.com/WerWolv/EdiZon/releases/download/v3.1.0/EdiZon.nro",
+            "description": "\ud83d\udca1 A homebrew save management, editing tool and memory trainer for Horizon (Nintendo Switch)",
             "version": "v3.1.0"
         },
         "ftpd": {
             "name": "ftpd",
             "link": "https://github.com/mtheall/ftpd/releases/download/v3.1.0/ftpd-classic.nro",
+            "description": "FTP Server for 3DS/Switch",
             "version": "v3.1.0"
         },
         "Goldleaf": {
             "name": "Goldleaf",
             "link": "https://github.com/XorTroll/Goldleaf/releases/download/1.0.0/Goldleaf.nro",
+            "description": "\ud83c\udf42 Multipurpose homebrew tool for Nintendo Switch",
             "version": "1.0.0"
         },
         "Hekate-Toolbox": {
             "name": "Hekate-Toolbox",
             "link": "https://github.com/WerWolv/Hekate-Toolbox/releases/download/v4.0.3/HekateToolbox.nro",
+            "description": "A toolbox for Hekate",
             "version": "v4.0.3"
         },
         "JKSV": {
             "name": "JKSV",
             "link": "https://github.com/J-D-K/JKSV/releases/download/02/23/2023/JKSV.nro",
+            "description": "JK's Save Manager Switch Edition",
             "version": "02/23/2023"
         },
         "NX-Activity-Log": {
             "name": "NX-Activity-Log",
             "link": "https://github.com/tallbl0nde/NX-Activity-Log/releases/download/v1.4.0/NX-Activity-Log.nro",
+            "description": "Homebrew application for the Nintendo Switch which displays play activity with more accuracy",
             "version": "v1.4.0"
         },
         "SimpleModDownloader": {
             "name": "SimpleModDownloader",
             "link": "https://github.com/PoloNX/SimpleModDownloader/releases/download/2.1.0/SimpleModDownloader.nro",
+            "description": "A switch homebrew which downloads mods from gamebanana",
             "version": "2.1.0"
         },
         "SimpleModManager": {
             "name": "SimpleModManager",
             "link": "https://github.com/nadrino/SimpleModManager/releases/download/2.1.2/SimpleModManager.nro",
+            "description": "SimpleModManager is an homebrew app for the Nintendo Switch",
             "version": "2.1.2"
         },
         "hb-appstore": {
             "name": "hb-appstore",
             "link": "https://github.com/fortheusers/hb-appstore/releases/download/v2.3.2/appstore.nro",
+            "description": "Homebrew App Store - GUI for downloading/managing homebrew apps",
             "version": "v2.3.2"
         },
         "SwitchThemeInjector": {
             "name": "SwitchThemeInjector",
             "link": "https://github.com/exelix11/SwitchThemeInjector/releases/download/v4.7.1/NXThemesInstaller.nro",
+            "description": "Create custom themes for the nintendo switch ! ",
             "version": "v4.7.1"
         },
         "themezer-nx": {
             "name": "themezer-nx",
             "link": "https://github.com/suchmememanyskill/themezer-nx/releases/download/2.0.0/themezer-nx.nro",
+            "description": "A switch theme downloader that pulls from https://themezer.net/",
             "version": "2.0.0"
         },
         "aio-switch-updater": {
             "name": "aio-switch-updater",
             "link": "https://github.com/HamletDuFromage/aio-switch-updater/releases/download/2.23.2/aio-switch-updater.zip",
+            "description": "Update your CFW, cheat codes, firmwares and more directly from your Nintendo Switch!",
             "version": "2.23.2"
         }
     },
@@ -78,26 +91,31 @@
         "Tesla-Menu": {
             "name": "Tesla-Menu",
             "link": "https://github.com/WerWolv/Tesla-Menu/releases/download/v1.2.3/ovlmenu.zip",
+            "description": "The Nintendo Switch overlay menu",
             "version": "v1.2.3"
         },
         "fastCFWswitch": {
             "name": "fastCFWswitch",
             "link": "https://github.com/Hartie95/fastCFWswitch/releases/download/v1.3.1/fastCFWswitch_1.3.1.zip",
+            "description": "Overlay to reboot into payloads on the nintendo switch",
             "version": "v1.3.1"
         },
         "QuickNTP": {
             "name": "QuickNTP",
             "link": "https://github.com/nedex/QuickNTP/releases/download/1.2.8/QuickNTP.ovl",
+            "description": "A Tesla plugin for Nintendo Switch to sync time with NTP servers",
             "version": "1.2.8"
         },
         "Status-Monitor-Overlay": {
             "name": "Status-Monitor-Overlay",
             "link": "https://github.com/masagrator/Status-Monitor-Overlay/releases/download/1.0.4/Status-Monitor-Overlay.zip",
+            "description": "Monitor many stats of Nintendo Switch hardware",
             "version": "1.0.4"
         },
         "ovl-sysmodules": {
             "name": "ovl-sysmodules",
             "link": "https://github.com/WerWolv/ovl-sysmodules/releases/download/v1.3.1/ovlSysmodules.ovl",
+            "description": "A sysmodule selector for Tesla",
             "version": "v1.3.1"
         }
     },
@@ -105,21 +123,25 @@
         "hekate": {
             "name": "hekate",
             "link": "https://github.com/CTCaer/hekate/releases/download/v6.2.1/hekate_ctcaer_6.2.1_Nyx_1.6.3.zip",
+            "description": "hekate - A GUI based Nintendo Switch Bootloader",
             "version": "v6.2.1"
         },
         "Lockpick_RCM": {
             "name": "Lockpick_RCM",
             "link": "https://github.com/Decscots/Lockpick_RCM/releases/download/v1.9.12/Lockpick_RCM.bin",
+            "description": null,
             "version": "v1.9.12"
         },
         "TegraExplorer": {
             "name": "TegraExplorer",
             "link": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.1.1/TegraExplorer.bin",
+            "description": "A payload-based file manager for your switch!",
             "version": "4.1.1"
         },
         "Atmosphere": {
             "name": "Atmosphere",
             "link": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.7.1/fusee.bin",
+            "description": "Atmosph\u00e8re is a work-in-progress customized firmware for the Nintendo Switch.",
             "version": "1.7.1"
         }
     },
@@ -127,6 +149,7 @@
         "MissionControl": {
             "name": "MissionControl",
             "link": "https://github.com/ndeadly/MissionControl/releases/download/v0.11.1/MissionControl-0.11.1-master-581ae0d.zip",
+            "description": "Use controllers from other consoles natively on your Nintendo Switch via Bluetooth. No dongles or other external hardware neccessary.",
             "version": "v0.11.1",
             "archiveDirectory": "",
             "archiveExtraction": "sdmc:/"
@@ -134,6 +157,7 @@
         "SysDVR": {
             "name": "SysDVR",
             "link": "https://github.com/exelix11/SysDVR/releases/download/v6.1.1/SysDVR.zip",
+            "description": "Stream switch games to your PC via USB or network",
             "version": "v6.1.1",
             "archiveDirectory": "",
             "archiveExtraction": "sdmc:/"
@@ -141,6 +165,7 @@
         "nx-ovlloader": {
             "name": "nx-ovlloader",
             "link": "https://github.com/WerWolv/nx-ovlloader/releases/download/v1.0.7/nx-ovlloader.zip",
+            "description": "Host process for loading Switch overlay OVLs (NROs)",
             "version": "v1.0.7",
             "archiveDirectory": "",
             "archiveExtraction": "sdmc:/"
@@ -148,6 +173,7 @@
         "sys-tune": {
             "name": "sys-tune",
             "link": "https://github.com/HookedBehemoth/sys-tune/releases/download/v2.0.0/sys-tune-2.0.0-702cdd0.zip",
+            "description": "Background audio player for the Nintendo switch",
             "version": "v2.0.0",
             "archiveDirectory": "",
             "archiveExtraction": "sdmc:/"
@@ -155,6 +181,7 @@
         "emuiibo": {
             "name": "emuiibo",
             "link": "https://github.com/XorTroll/emuiibo/releases/download/1.1.1/emuiibo.zip",
+            "description": "Virtual amiibo (amiibo emulation) system for Nintendo Switch",
             "version": "1.1.1",
             "archiveDirectory": "SdOut/",
             "archiveExtraction": "sdmc:/"
@@ -162,6 +189,7 @@
         "sys-clk": {
             "name": "sys-clk",
             "link": "https://github.com/retronx-team/sys-clk/releases/download/2.0.0-rc/sys-clk-2.0.0-rc_4.zip",
+            "description": "Nintendo Switch homebrew overclocking/underclocking system module and frontend",
             "version": "2.0.0-rc",
             "archiveDirectory": "",
             "archiveExtraction": "sdmc:/"
@@ -169,6 +197,7 @@
         "sys-screenuploader": {
             "name": "sys-screenuploader",
             "link": "https://github.com/bakatrouble/sys-screenuploader/releases/download/v0.0.10/sys-screenuploader.zip",
+            "description": null,
             "version": "v0.0.10",
             "archiveDirectory": "",
             "archiveExtraction": "sdmc:/"
@@ -176,6 +205,7 @@
         "ns-sys-patch": {
             "name": "ns-sys-patch",
             "link": "https://github.com/pgalonza/ns-sys-patch/releases/download/0.2.0/sys-patch.zip",
+            "description": "A script-like system module that patches fs, es, ldr and nifm on boot",
             "version": "0.2.0",
             "archiveDirectory": "",
             "archiveExtraction": "sdmc:/"
@@ -276,6 +306,7 @@
         "uLaunch": {
             "name": "uLaunch",
             "link": "https://github.com/XorTroll/uLaunch/releases/download/1.0.0/uLaunch.zip",
+            "description": ":rocket: The themeable Nintendo Switch HOME menu Nintendo forgot to make",
             "version": "1.0.0",
             "archiveDirectory": "SdOut/",
             "archiveExtraction": "sdmc:/"
