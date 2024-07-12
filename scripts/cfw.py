@@ -9,7 +9,7 @@ class cfw(BaseModule):
         a=[]
         a.append([{"username":"Atmosphere-NX", "reponame":"Atmosphere","assetPatterns": [".*atmosphere.*\\.zip"]}])
         
-        a.sort(key=lambda x: x['reponame'].lower())
+        a.sort(key=lambda x: x[0]['reponame'].lower())
 
         for i in a:
             self.config = i

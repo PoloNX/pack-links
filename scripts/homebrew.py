@@ -22,7 +22,7 @@ class Homebrew(BaseModule):
         a.append([{"username": "suchmememanyskill","reponame": "themezer-nx","assetPatterns": [".*themezer-nx.*\\.nro"]}])
         a.append([{"username": "HamletDuFromage","reponame": "aio-switch-updater","assetPatterns": [".*aio-switch-updater.*\\.zip"]}])
 
-        a.sort(key=lambda x: x['reponame'].lower())
+        a.sort(key=lambda x: x[0]['reponame'].lower())
 
         for i in a:
             self.config = i

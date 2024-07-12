@@ -17,7 +17,7 @@ class Sysmodule(BaseModule):
         a.append([{"username": "bakatrouble","reponame": "sys-screenuploader","assetPatterns": [".*sys-screenuploader.*\\.zip"], "archiveDirectory": "", "archiveExtraction": "sdmc:/"}])
         a.append([{"username": "pgalonza","reponame": "ns-sys-patch","assetPatterns": [".*sys-patch.*\\.zip"], "archiveDirectory": "", "archiveExtraction": "sdmc:/"}])
         
-        a.sort(key=lambda x: x['reponame'].lower())
+        a.sort(key=lambda x: x[0]['reponame'].lower())
 
         for i in a:
             self.config = i

@@ -12,8 +12,8 @@ class Payload(BaseModule):
         a.append([{"username": "suchmememanyskill","reponame": "TegraExplorer","assetPatterns": [".*TegraExplorer.*\\.bin"]}])
         a.append([{"username": "Atmosphere-NX","reponame": "Atmosphere","assetPatterns": [".*fusee.*\\.bin"]}])
         
-        a.sort(key=lambda x: x['reponame'].lower())
-        
+        a.sort(key=lambda x: x[0]['reponame'].lower())
+
         for i in a:
             self.config = i
             release = self.get_latest_release(0)

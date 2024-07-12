@@ -8,6 +8,12 @@
         }
     },
     "homebrew": {
+        "aio-switch-updater": {
+            "name": "aio-switch-updater",
+            "link": "https://github.com/HamletDuFromage/aio-switch-updater/releases/download/2.23.2/aio-switch-updater.zip",
+            "description": "Update your CFW, cheat codes, firmwares and more directly from your Nintendo Switch!",
+            "version": "2.23.2"
+        },
         "dbi": {
             "name": "dbi",
             "link": "https://github.com/rashevskyv/dbi/releases/download/658/DBI.nro",
@@ -31,6 +37,12 @@
             "link": "https://github.com/XorTroll/Goldleaf/releases/download/1.0.0/Goldleaf.nro",
             "description": "\ud83c\udf42 Multipurpose homebrew tool for Nintendo Switch",
             "version": "1.0.0"
+        },
+        "hb-appstore": {
+            "name": "hb-appstore",
+            "link": "https://github.com/fortheusers/hb-appstore/releases/download/v2.3.2/appstore.nro",
+            "description": "Homebrew App Store - GUI for downloading/managing homebrew apps",
+            "version": "v2.3.2"
         },
         "Hekate-Toolbox": {
             "name": "Hekate-Toolbox",
@@ -62,12 +74,6 @@
             "description": "SimpleModManager is an homebrew app for the Nintendo Switch",
             "version": "2.1.2"
         },
-        "hb-appstore": {
-            "name": "hb-appstore",
-            "link": "https://github.com/fortheusers/hb-appstore/releases/download/v2.3.2/appstore.nro",
-            "description": "Homebrew App Store - GUI for downloading/managing homebrew apps",
-            "version": "v2.3.2"
-        },
         "SwitchThemeInjector": {
             "name": "SwitchThemeInjector",
             "link": "https://github.com/exelix11/SwitchThemeInjector/releases/download/v4.7.1/NXThemesInstaller.nro",
@@ -79,25 +85,19 @@
             "link": "https://github.com/suchmememanyskill/themezer-nx/releases/download/2.0.0/themezer-nx.nro",
             "description": "A switch theme downloader that pulls from https://themezer.net/",
             "version": "2.0.0"
-        },
-        "aio-switch-updater": {
-            "name": "aio-switch-updater",
-            "link": "https://github.com/HamletDuFromage/aio-switch-updater/releases/download/2.23.2/aio-switch-updater.zip",
-            "description": "Update your CFW, cheat codes, firmwares and more directly from your Nintendo Switch!",
-            "version": "2.23.2"
         }
     },
     "overlay": {
-        "Tesla-Menu": {
-            "name": "Tesla-Menu",
-            "link": "https://github.com/WerWolv/Tesla-Menu/releases/download/v1.2.3/ovlmenu.zip",
-            "description": "The Nintendo Switch overlay menu",
-            "version": "v1.2.3"
-        },
         "fastCFWswitch": {
             "name": "fastCFWswitch",
             "link": "https://github.com/Hartie95/fastCFWswitch/releases/download/v1.3.1/fastCFWswitch_1.3.1.zip",
             "description": "Overlay to reboot into payloads on the nintendo switch",
+            "version": "v1.3.1"
+        },
+        "ovl-sysmodules": {
+            "name": "ovl-sysmodules",
+            "link": "https://github.com/WerWolv/ovl-sysmodules/releases/download/v1.3.1/ovlSysmodules.ovl",
+            "description": "A sysmodule selector for Tesla",
             "version": "v1.3.1"
         },
         "QuickNTP": {
@@ -112,14 +112,20 @@
             "description": "Monitor many stats of Nintendo Switch hardware",
             "version": "1.0.4"
         },
-        "ovl-sysmodules": {
-            "name": "ovl-sysmodules",
-            "link": "https://github.com/WerWolv/ovl-sysmodules/releases/download/v1.3.1/ovlSysmodules.ovl",
-            "description": "A sysmodule selector for Tesla",
-            "version": "v1.3.1"
+        "Tesla-Menu": {
+            "name": "Tesla-Menu",
+            "link": "https://github.com/WerWolv/Tesla-Menu/releases/download/v1.2.3/ovlmenu.zip",
+            "description": "The Nintendo Switch overlay menu",
+            "version": "v1.2.3"
         }
     },
     "payload": {
+        "Atmosphere": {
+            "name": "Atmosphere",
+            "link": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.7.1/fusee.bin",
+            "description": "Atmosph\u00e8re is a work-in-progress customized firmware for the Nintendo Switch.",
+            "version": "1.7.1"
+        },
         "hekate": {
             "name": "hekate",
             "link": "https://github.com/CTCaer/hekate/releases/download/v6.2.1/hekate_ctcaer_6.2.1_Nyx_1.6.3.zip",
@@ -137,15 +143,17 @@
             "link": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.1.1/TegraExplorer.bin",
             "description": "A payload-based file manager for your switch!",
             "version": "4.1.1"
-        },
-        "Atmosphere": {
-            "name": "Atmosphere",
-            "link": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.7.1/fusee.bin",
-            "description": "Atmosph\u00e8re is a work-in-progress customized firmware for the Nintendo Switch.",
-            "version": "1.7.1"
         }
     },
     "sysmodule": {
+        "emuiibo": {
+            "name": "emuiibo",
+            "link": "https://github.com/XorTroll/emuiibo/releases/download/1.1.1/emuiibo.zip",
+            "description": "Virtual amiibo (amiibo emulation) system for Nintendo Switch",
+            "version": "1.1.1",
+            "archiveDirectory": "SdOut/",
+            "archiveExtraction": "sdmc:/"
+        },
         "MissionControl": {
             "name": "MissionControl",
             "link": "https://github.com/ndeadly/MissionControl/releases/download/v0.11.1/MissionControl-0.11.1-master-581ae0d.zip",
@@ -154,11 +162,11 @@
             "archiveDirectory": "",
             "archiveExtraction": "sdmc:/"
         },
-        "SysDVR": {
-            "name": "SysDVR",
-            "link": "https://github.com/exelix11/SysDVR/releases/download/v6.1.1/SysDVR.zip",
-            "description": "Stream switch games to your PC via USB or network",
-            "version": "v6.1.1",
+        "ns-sys-patch": {
+            "name": "ns-sys-patch",
+            "link": "https://github.com/pgalonza/ns-sys-patch/releases/download/0.2.0/sys-patch.zip",
+            "description": "A script-like system module that patches fs, es, ldr and nifm on boot",
+            "version": "0.2.0",
             "archiveDirectory": "",
             "archiveExtraction": "sdmc:/"
         },
@@ -168,22 +176,6 @@
             "description": "Host process for loading Switch overlay OVLs (NROs)",
             "version": "v1.0.7",
             "archiveDirectory": "",
-            "archiveExtraction": "sdmc:/"
-        },
-        "sys-tune": {
-            "name": "sys-tune",
-            "link": "https://github.com/HookedBehemoth/sys-tune/releases/download/v2.0.0/sys-tune-2.0.0-702cdd0.zip",
-            "description": "Background audio player for the Nintendo switch",
-            "version": "v2.0.0",
-            "archiveDirectory": "",
-            "archiveExtraction": "sdmc:/"
-        },
-        "emuiibo": {
-            "name": "emuiibo",
-            "link": "https://github.com/XorTroll/emuiibo/releases/download/1.1.1/emuiibo.zip",
-            "description": "Virtual amiibo (amiibo emulation) system for Nintendo Switch",
-            "version": "1.1.1",
-            "archiveDirectory": "SdOut/",
             "archiveExtraction": "sdmc:/"
         },
         "sys-clk": {
@@ -202,11 +194,19 @@
             "archiveDirectory": "",
             "archiveExtraction": "sdmc:/"
         },
-        "ns-sys-patch": {
-            "name": "ns-sys-patch",
-            "link": "https://github.com/pgalonza/ns-sys-patch/releases/download/0.2.0/sys-patch.zip",
-            "description": "A script-like system module that patches fs, es, ldr and nifm on boot",
-            "version": "0.2.0",
+        "sys-tune": {
+            "name": "sys-tune",
+            "link": "https://github.com/HookedBehemoth/sys-tune/releases/download/v2.0.0/sys-tune-2.0.0-702cdd0.zip",
+            "description": "Background audio player for the Nintendo switch",
+            "version": "v2.0.0",
+            "archiveDirectory": "",
+            "archiveExtraction": "sdmc:/"
+        },
+        "SysDVR": {
+            "name": "SysDVR",
+            "link": "https://github.com/exelix11/SysDVR/releases/download/v6.1.1/SysDVR.zip",
+            "description": "Stream switch games to your PC via USB or network",
+            "version": "v6.1.1",
             "archiveDirectory": "",
             "archiveExtraction": "sdmc:/"
         }
