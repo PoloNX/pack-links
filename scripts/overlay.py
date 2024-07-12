@@ -21,6 +21,9 @@ class Overlay(BaseModule):
         a.append([{"username": "WerWolv","reponame": "ovl-sysmodules","assetPatterns": [".*ovlSysmodules.*\\.ovl"]}])
         #a.append([{"username": "SegFault42","reponame": "sys-ftpd-ovl","assetPatterns": [".*sys-ftpd.*\\.zip"]}])
         #a.append([{"username": "HookedBehemoth","reponame": "ShareNX-Overlay","assetPatterns": [".*ovlShareNX.*\\.ovl"]}])
+
+        a.sort(key=lambda x: x['reponame'].lower())
+        
         for i in a:
             self.config = i
             release = self.get_latest_release(0)
