@@ -315,6 +315,7 @@
             "name": "90dns",
             "link": "https://raw.githubusercontent.com/PoloNX/pack-links/master/download/default.txt",
             "version": "",
+            "description": "You can add a custom DNS to your WiFi connection that will block all communication with Nintendo's servers",
             "archiveDirectory": "",
             "archiveExtraction": "sdmc:/atmosphere/hosts/"
         },
@@ -322,13 +323,15 @@
             "name": "Hekate Config",
             "link": "https://raw.githubusercontent.com/PoloNX/pack-links/master/download/hekate_ipl.ini",
             "version": "",
-            "archiveDirectory": "",
+            "description": "",
+            "archiveDirectory": "A simple config for hekate",
             "archiveExtraction": "sdmc:/bootloader/"
         },
         "exosphere": {
             "name": "exosphere (anti ban)",
             "link": "https://raw.githubusercontent.com/PoloNX/pack-links/master/download/exosphere.ini",
             "version": "",
+            "description": "Simple config to blank prodinfo",
             "archiveDirectory": "",
             "archiveExtraction": "sdmc:/"
         }
