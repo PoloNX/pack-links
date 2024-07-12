@@ -18,6 +18,18 @@ class BaseModule:
         self.out = {}
         self.handle_module()
 
+    def get_description(self, index):
+        gh = Github(args.githubToken)
+        try:
+            repo = gh.get_repo(
+                self.config[index]["username"] + "/" + self.config[index]["reponame"]
+            )
+            return repo.description
+        except GithubException:
+            print("Unable to get: ", self.config[index]["username"], '/', self.config[index]["reponame"])
+
+        return
+
     def get_latest_release(self, index):
         gh = Github(args.githubToken)
         try:

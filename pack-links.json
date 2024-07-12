@@ -3,6 +3,7 @@
         "Atmosphere": {
             "name": "Atmosphere",
             "link": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.7.1/atmosphere-1.7.1-master-39c201e37%2Bhbl-2.4.4%2Bhbmenu-3.6.0.zip",
+            "description": "Atmosph\u00e8re is a work-in-progress customized firmware for the Nintendo Switch.",
             "version": "1.7.1"
         }
     },

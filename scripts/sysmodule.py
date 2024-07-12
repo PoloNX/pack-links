@@ -23,9 +23,11 @@ class Sysmodule(BaseModule):
             release = self.get_latest_release(0)
             if "assetPatterns" in self.config[0] and self.config[0]["assetPatterns"]:
                 asset = self.get_asset_link(release, self.config[0]["assetPatterns"][0])
+                description = self.get_description(0)
                 self.out[self.config[0]["reponame"]] = {
                     "name": i[0]["reponame"],
                     "link": asset[0].browser_download_url,
+                    "description": description,
                     "version": release.tag_name,
                     "archiveDirectory": i[0]["archiveDirectory"],
                     "archiveExtraction": i[0]["archiveExtraction"]
