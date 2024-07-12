@@ -135,7 +135,7 @@
         "Lockpick_RCM": {
             "name": "Lockpick_RCM",
             "link": "https://github.com/Decscots/Lockpick_RCM/releases/download/v1.9.12/Lockpick_RCM.bin",
-            "description": null,
+            "description": "",
             "version": "v1.9.12"
         },
         "TegraExplorer": {
@@ -189,7 +189,7 @@
         "sys-screenuploader": {
             "name": "sys-screenuploader",
             "link": "https://github.com/bakatrouble/sys-screenuploader/releases/download/v0.0.10/sys-screenuploader.zip",
-            "description": null,
+            "description": "",
             "version": "v0.0.10",
             "archiveDirectory": "",
             "archiveExtraction": "sdmc:/"
