@@ -26,6 +26,6 @@ class Misc(BaseModule):
             else:
                 print(f"Warning: No assetPatterns defined for repo {self.config[0]['reponame']}")
 
-        self.out["90dns"] = {"name": "90dns", "link": "https://raw.githubusercontent.com/PoloNX/pack-links/master/download/default.txt", "version":"", "archiveDirectory":"", "archiveExtraction":"sdmc:/atmosphere/hosts/"}
-        self.out["Hekate Config"] = {"name": "Hekate Config", "link": "https://raw.githubusercontent.com/PoloNX/pack-links/master/download/hekate_ipl.ini", "version":"", "archiveDirectory":"", "archiveExtraction":"sdmc:/bootloader/"}
-        self.out["exosphere"] = {"name": "exosphere (anti ban)", "link": "https://raw.githubusercontent.com/PoloNX/pack-links/master/download/exosphere.ini", "version":"", "archiveDirectory":"", "archiveExtraction":"sdmc:/"}
+        self.out["90dns"] = {"name": "90dns", "link": "https://raw.githubusercontent.com/PoloNX/pack-links/master/download/default.txt", "version":"", "description": "You can add a custom DNS to your WiFi connection that will block all communication with Nintendo's servers","archiveDirectory":"", "archiveExtraction":"sdmc:/atmosphere/hosts/"}
+        self.out["Hekate Config"] = {"name": "Hekate Config", "link": "https://raw.githubusercontent.com/PoloNX/pack-links/master/download/hekate_ipl.ini", "version":"", "description": "", "archiveDirectory":"A simple config for hekate", "archiveExtraction":"sdmc:/bootloader/"}
+        self.out["exosphere"] = {"name": "exosphere (anti ban)", "link": "https://raw.githubusercontent.com/PoloNX/pack-links/master/download/exosphere.ini", "version":"", "description": "Simple config to blank prodinfo", "archiveDirectory":"", "archiveExtraction":"sdmc:/"}
