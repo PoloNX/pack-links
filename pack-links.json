@@ -228,7 +228,12 @@
             "sysmodule": [
                 "sys-patch"
             ],
-            "overlay": []
+            "overlay": [],
+            "misc": [
+                "90dns",
+                "Hekate Config",
+                "exosphere (anti ban)"
+            ]
         },
         {
             "name": "Normal",
@@ -257,6 +262,11 @@
                 "Tesla-Menu",
                 "fastCFWswitch",
                 "QuickNTP"
+            ],
+            "misc": [
+                "90dns",
+                "Hekate Config",
+                "exosphere (anti ban)"
             ]
         },
         {
@@ -281,24 +291,11 @@
             "overlay": [
                 "Tesla-Menu",
                 "Status-Monitor-Overlay"
-            ]
-        },
-        {
-            "name": "Advanced",
-            "cfw": [
-                "all"
             ],
-            "homebrew": [
-                "all"
-            ],
-            "payload": [
-                "all"
-            ],
-            "sysmodule": [
-                "all"
-            ],
-            "overlay": [
-                "all"
+            "misc": [
+                "90dns",
+                "Hekate Config",
+                "exosphere (anti ban)"
             ]
         }
     ],
