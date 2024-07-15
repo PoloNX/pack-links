@@ -14,7 +14,8 @@ class Preset():
                 "homebrew": ["dbi", "hb-appstore"],
                 "payload": ["hekate", "Atmosphere"],
                 "sysmodule": ["sys-patch"],
-                "overlay": []
+                "overlay": [],
+                "misc": ["90dns", "Hekate Config", "exosphere (anti ban)"]
             },
             {
                 "name": "Normal",
@@ -22,7 +23,8 @@ class Preset():
                 "homebrew": ["dbi", "Hekate-Toolbox", "JKSV", "NX-Activity-Log", "hb-appstore", "aio-switch_updater"],
                 "payload": ["Atmosphere", "hekate", "Lockpick_RCM"],
                 "sysmodule": ["sys-patch", "MissionControl", "nx-ovlloader"],
-                "overlay": ["Tesla-Menu", "fastCFWswitch", "QuickNTP"]
+                "overlay": ["Tesla-Menu", "fastCFWswitch", "QuickNTP"],
+                "misc": ["90dns", "Hekate Config", "exosphere (anti ban)"]
             },
             {
                 "name": "Modding",
@@ -30,14 +32,7 @@ class Preset():
                 "homebrew": ["dbi", "SimpleModDownloader", "SimpleModManager", "JKSV"],
                 "payload": ["Atmosphere", "hekate"],
                 "sysmodule": ["sys-patch", "nx-ovlloader"],
-                "overlay": ["Tesla-Menu", "Status-Monitor-Overlay"]
-            },
-            {
-                "name": "Advanced",
-                "cfw": ["all"],
-                "homebrew": ["all"],
-                "payload": ["all"],
-                "sysmodule": ["all"],
-                "overlay": ["all"]
-            },
+                "overlay": ["Tesla-Menu", "Status-Monitor-Overlay"],
+                "misc": ["90dns", "Hekate Config", "exosphere (anti ban)"]
+            }
         ]
