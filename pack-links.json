@@ -108,9 +108,9 @@
         },
         "Status-Monitor-Overlay": {
             "name": "Status-Monitor-Overlay",
-            "link": "https://github.com/masagrator/Status-Monitor-Overlay/releases/download/1.1.0/Status-Monitor-Overlay.zip",
+            "link": "https://github.com/masagrator/Status-Monitor-Overlay/releases/download/1.1.1/Status-Monitor-Overlay.zip",
             "description": "Monitor many stats of Nintendo Switch hardware",
-            "version": "1.1.0"
+            "version": "1.1.1"
         },
         "Tesla-Menu": {
             "name": "Tesla-Menu",
