@@ -140,9 +140,9 @@
         },
         "TegraExplorer": {
             "name": "TegraExplorer",
-            "link": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.1.1/TegraExplorer.bin",
+            "link": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.2.0/TegraExplorer.bin",
             "description": "A payload-based file manager for your switch!",
-            "version": "4.1.1"
+            "version": "4.2.0"
         }
     },
     "sysmodule": {
