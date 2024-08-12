@@ -226,7 +226,7 @@
                 "Atmosphere"
             ],
             "sysmodule": [
-                "sys-patch"
+                "ns-sys-patch"
             ],
             "overlay": [],
             "misc": [
@@ -254,7 +254,7 @@
                 "Lockpick_RCM"
             ],
             "sysmodule": [
-                "sys-patch",
+                "ns-sys-patch",
                 "MissionControl",
                 "nx-ovlloader"
             ],
@@ -285,7 +285,7 @@
                 "hekate"
             ],
             "sysmodule": [
-                "sys-patch",
+                "ns-sys-patch",
                 "nx-ovlloader"
             ],
             "overlay": [
