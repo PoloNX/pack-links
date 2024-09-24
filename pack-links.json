@@ -132,12 +132,6 @@
             "description": "hekate - A GUI based Nintendo Switch Bootloader",
             "version": "v6.2.1"
         },
-        "Lockpick_RCM": {
-            "name": "Lockpick_RCM",
-            "link": "https://github.com/Decscots/Lockpick_RCM/releases/download/v1.9.12/Lockpick_RCM.bin",
-            "description": "",
-            "version": "v1.9.12"
-        },
         "TegraExplorer": {
             "name": "TegraExplorer",
             "link": "https://github.com/suchmememanyskill/TegraExplorer/releases/download/4.2.0/TegraExplorer.bin",
