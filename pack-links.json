@@ -128,9 +128,9 @@
         },
         "hekate": {
             "name": "hekate",
-            "link": "https://github.com/CTCaer/hekate/releases/download/v6.2.1/hekate_ctcaer_6.2.1_Nyx_1.6.3.zip",
+            "link": "https://github.com/CTCaer/hekate/releases/download/v6.2.2/hekate_ctcaer_6.2.2_Nyx_1.6.4.zip",
             "description": "hekate - A GUI based Nintendo Switch Bootloader",
-            "version": "v6.2.1"
+            "version": "v6.2.2"
         },
         "TegraExplorer": {
             "name": "TegraExplorer",
