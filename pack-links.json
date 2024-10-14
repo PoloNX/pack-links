@@ -174,9 +174,9 @@
         },
         "sys-clk": {
             "name": "sys-clk",
-            "link": "https://github.com/retronx-team/sys-clk/releases/download/2.0.0-rc/sys-clk-2.0.0-rc_4.zip",
+            "link": "https://github.com/retronx-team/sys-clk/releases/download/2.0.1/sys-clk-2.0.1.zip",
             "description": "Nintendo Switch homebrew overclocking/underclocking system module and frontend",
-            "version": "2.0.0-rc",
+            "version": "2.0.1",
             "archiveDirectory": "",
             "archiveExtraction": "sdmc:/"
         },
