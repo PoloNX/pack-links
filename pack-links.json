@@ -28,9 +28,9 @@
         },
         "ftpd": {
             "name": "ftpd",
-            "link": "https://github.com/mtheall/ftpd/releases/download/v3.1.0/ftpd-classic.nro",
+            "link": "https://github.com/mtheall/ftpd/releases/download/v3.2.0/ftpd-classic.nro",
             "description": "FTP Server for 3DS/Switch",
-            "version": "v3.1.0"
+            "version": "v3.2.0"
         },
         "Goldleaf": {
             "name": "Goldleaf",
