@@ -198,9 +198,9 @@
         },
         "SysDVR": {
             "name": "SysDVR",
-            "link": "https://github.com/exelix11/SysDVR/releases/download/v6.1.1/SysDVR.zip",
+            "link": "https://github.com/exelix11/SysDVR/releases/download/v6.2/SysDVR.zip",
             "description": "Stream switch games to your PC via USB or network",
-            "version": "v6.1.1",
+            "version": "v6.2",
             "archiveDirectory": "",
             "archiveExtraction": "sdmc:/"
         }
