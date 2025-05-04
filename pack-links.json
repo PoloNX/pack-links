@@ -297,7 +297,7 @@
         "uLaunch": {
             "name": "uLaunch",
             "link": "https://github.com/XorTroll/uLaunch/releases/download/1.1.0/uLaunch.zip",
-            "description": ":rocket: The themeable Nintendo Switch HOME Menu you deserve",
+            "description": ":rocket: The themeable Nintendo Switch HOME Menu we deserve",
             "version": "1.1.0",
             "archiveDirectory": "SdOut/",
             "archiveExtraction": "sdmc:/"
