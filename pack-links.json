@@ -128,9 +128,9 @@
         },
         "hekate": {
             "name": "hekate",
-            "link": "https://github.com/CTCaer/hekate/releases/download/v6.2.2/hekate_ctcaer_6.2.2_Nyx_1.6.4.zip",
+            "link": "https://github.com/CTCaer/hekate/releases/download/v6.3.0/hekate_ctcaer_6.3.0_Nyx_1.7.0.zip",
             "description": "hekate - A GUI based Nintendo Switch Bootloader",
-            "version": "v6.2.2"
+            "version": "v6.3.0"
         },
         "TegraExplorer": {
             "name": "TegraExplorer",
@@ -150,9 +150,9 @@
         },
         "MissionControl": {
             "name": "MissionControl",
-            "link": "https://github.com/ndeadly/MissionControl/releases/download/v0.12.0/MissionControl-0.12.0-master-6e41a4d.zip",
+            "link": "https://github.com/ndeadly/MissionControl/releases/download/v0.13.0/MissionControl-0.13.0-master-ac9d294.zip",
             "description": "Use controllers from other consoles natively on your Nintendo Switch via Bluetooth. No dongles or other external hardware neccessary.",
-            "version": "v0.12.0",
+            "version": "v0.13.0",
             "archiveDirectory": "",
             "archiveExtraction": "sdmc:/"
         },
