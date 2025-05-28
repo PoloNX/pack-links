@@ -102,9 +102,9 @@
         },
         "QuickNTP": {
             "name": "QuickNTP",
-            "link": "https://github.com/nedex/QuickNTP/releases/download/1.2.8-1/quickntp-1.2.8-1.zip",
+            "link": "https://github.com/nedex/QuickNTP/releases/download/1.5.0/quickntp-1.5.0.zip",
             "description": "A Tesla plugin for Nintendo Switch to sync time with NTP servers",
-            "version": "1.2.8-1"
+            "version": "1.5.0"
         },
         "Status-Monitor-Overlay": {
             "name": "Status-Monitor-Overlay",
