@@ -76,9 +76,9 @@
         },
         "SwitchThemeInjector": {
             "name": "SwitchThemeInjector",
-            "link": "https://github.com/exelix11/SwitchThemeInjector/releases/download/v4.8/NXThemesInstaller.nro",
+            "link": "https://github.com/exelix11/SwitchThemeInjector/releases/download/v4.8.1/NXThemesInstaller.nro",
             "description": "Create custom themes for the nintendo switch ! ",
-            "version": "v4.8"
+            "version": "v4.8.1"
         },
         "themezer-nx": {
             "name": "themezer-nx",
