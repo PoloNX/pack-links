@@ -64,9 +64,9 @@
         },
         "SimpleModDownloader": {
             "name": "SimpleModDownloader",
-            "link": "https://github.com/PoloNX/SimpleModDownloader/releases/download/2.1.0/SimpleModDownloader.nro",
+            "link": "https://github.com/PoloNX/SimpleModDownloader/releases/download/2.2.0/SimpleModDownloader.nro",
             "description": "A switch homebrew which downloads mods from gamebanana",
-            "version": "2.1.0"
+            "version": "2.2.0"
         },
         "SimpleModManager": {
             "name": "SimpleModManager",
