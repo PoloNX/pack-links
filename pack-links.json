@@ -2,9 +2,9 @@
     "cfw": {
         "Atmosphere": {
             "name": "Atmosphere",
-            "link": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.9.1/atmosphere-1.9.1-master-b11850b3a%2Bhbl-2.4.4%2Bhbmenu-3.6.0.zip",
+            "link": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.9.2/atmosphere-1.9.2-master-af859d9e6%2Bhbl-2.4.4%2Bhbmenu-3.6.0.zip",
             "description": "Atmosph\u00e8re is a work-in-progress customized firmware for the Nintendo Switch.",
-            "version": "1.9.1"
+            "version": "1.9.2"
         }
     },
     "homebrew": {
@@ -122,9 +122,9 @@
     "payload": {
         "Atmosphere": {
             "name": "Atmosphere",
-            "link": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.9.1/fusee.bin",
+            "link": "https://github.com/Atmosphere-NX/Atmosphere/releases/download/1.9.2/fusee.bin",
             "description": "Atmosph\u00e8re is a work-in-progress customized firmware for the Nintendo Switch.",
-            "version": "1.9.1"
+            "version": "1.9.2"
         },
         "hekate": {
             "name": "hekate",
