@@ -150,9 +150,9 @@
         },
         "MissionControl": {
             "name": "MissionControl",
-            "link": "https://github.com/ndeadly/MissionControl/releases/download/v0.13.3/MissionControl-0.13.3-master-bc6611c0.zip",
+            "link": "https://github.com/ndeadly/MissionControl/releases/download/v0.13.4/MissionControl-0.13.4-master-2af29931.zip",
             "description": "Use controllers from other consoles natively on your Nintendo Switch via Bluetooth. No dongles or other external hardware neccessary.",
-            "version": "v0.13.3",
+            "version": "v0.13.4",
             "archiveDirectory": "",
             "archiveExtraction": "sdmc:/"
         },
