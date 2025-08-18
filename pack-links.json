@@ -82,9 +82,9 @@
         },
         "themezer-nx": {
             "name": "themezer-nx",
-            "link": "https://github.com/suchmememanyskill/themezer-nx/releases/download/2.0.0/themezer-nx.nro",
+            "link": "https://github.com/suchmememanyskill/themezer-nx/releases/download/2.0.2/themezer-nx.nro",
             "description": "A switch theme downloader that pulls from https://themezer.net/",
-            "version": "2.0.0"
+            "version": "2.0.2"
         }
     },
     "overlay": {
